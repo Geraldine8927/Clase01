@@ -144,6 +144,13 @@
         android:layout_height="match_parent" >
 
         <Button
+            android:id="@+id/btnProveedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnllamarProveedor_OnClick"
+            android:text="Proveedor" />
+
+        <Button
             android:id="@+id/BtnCalcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -164,8 +171,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="301dp"
-            android:layout_height="177dp"
-            app:srcCompat="@drawable/firma" />
+            android:layout_width="164dp"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/logociber" />
     </TableRow>
 </LinearLayout>

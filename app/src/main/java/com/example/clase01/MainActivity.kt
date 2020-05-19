@@ -71,7 +71,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(oVentaImprimir)
 
     }
-
+    public fun btnllamarProveedor_OnClick(v:View)
+    {
+        var oActivity:Intent= Intent(this,ListadoProveedor::class.java)
+        startActivity(oActivity)
+    }
 
 }
 

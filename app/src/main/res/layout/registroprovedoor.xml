@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/registroproveedorXML"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="4dip">
+
+
+    <ImageView
+        android:id="@+id/IMGPROVEEDOR_ITEM"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="1dp"
+        app:srcCompat="@drawable/logociber" />
+
+    <TextView
+        android:id="@+id/tvITEMCODIGOPROVEEDOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_RAZONSOCIAL_ITEM"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-35dp"
+        android:text="tvITEMCODIGOPROVEEDOR" />
+
+    <TextView
+        android:id="@+id/TV_RAZONSOCIAL_ITEM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_RUC_ITEM"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="-40dp"
+        android:text="TV_RAZONSOCIAL_ITEM" />
+
+    <TextView
+        android:id="@+id/TV_RUC_ITEM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="3dp"
+        android:text="TV_RUC_ITEM" />
+</RelativeLayout>
